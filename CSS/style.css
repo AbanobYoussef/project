@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    padding: 0;
+    color: gray;
+}
+
+.container {
+    width: 75%;
+    background-color: black;
+    margin: auto;
+    padding: 0;
+}
+
+.Navul {
+    list-style: none;
+    width: 75%;
+    padding: 0;
+    float: right;
+    margin: 0;
+}
+
+.HeadH {
+    float: left;
+    margin: 0;
+    padding: 1%;
+}
+
+.Navli {
+    display: inline-block;
+    padding: 3.3% 0;
+    text-align: center;
+}
+
+.Navli:hover {
+    background-color: lightgray;
+}
+
+main {
+    background-color: white;
+}
+
+aside {
+    background-color: black;
+    width: 25%;
+    float: left;
+    color: gray;
+    text-align: center;
+    height: 520px;
+}
+
+.MAIN {
+    float: right;
+    width: 75%;
+    background-color: darkgray;
+}
+
+.disease {
+    color: white;
+    width: 100%;
+    overflow: scroll;
+    height: 520px;
+}
+
+.profile {
+    width: 90%;
+    border-radius: 50%;
+}
+
+.card {
+    width: 25%;
+    border: 2px black solid;
+    text-align: center;
+    background-color: white;
+    color: black;
+    float: left;
+}
+
+.cardprofile {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}
+
+footer {
+    height: 32px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}

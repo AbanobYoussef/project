@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>patient</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="CSS/all.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        <!--Header---------------------------------------------------------------------------------------->
+        <header>
+            <h1 class="HeadH">patient</h1>
+            <nav>
+                <ul class="Navul">
+                    <li class="Navli" onclick="disease('Diabetes')">Diabetes</li>
+                    <li class="Navli" onclick="disease('Heart')">Heart</li>
+                    <li class="Navli" onclick="disease('X-rays')">X-rays</li>
+                </ul>
+            </nav>
+        </header>
+        <div style="clear: both;"></div>
+
+
+        <!--Main---------------------------------------------------------------------------------------->
+        <main style="overflow: hidden">
+            <aside>
+                <img class="profile" src="./resource/istockphoto-1214428300-612x612.jpg">
+                <ul class="info"><br>
+                    <i class="fas fa-address-card"> Abanob</i><br><br>
+                    <i class="fab fa-asymmetrik"> 25</i><br><br>
+                    <i class="far fa-envelope"> Abanob@gmail.com</i><br><br>
+                    <i class="fas fa-address-card"> address</i><br><br>
+                    <i class="fab fa-orcid"> ID</i><br><br>
+                </ul>
+            </aside>
+            <article class="MAIN">
+                <!--Department1---------------------------------------------->
+                <div id="Diabetes" class="disease" style="display:none">
+                    <!--Card-------------------------------------------------->
+
+
+
+
+
+                </div>
+
+
+                <!--Department2---------------------------------------------->
+                <div id="Heart" class="disease" style="display:none">
+
+                </div>
+
+
+                <!--Department3---------------------------------------------->
+                <div id="X-rays" class="disease" style="display:none">
+
+                </div>
+            </article>
+        </main>
+
+        <div style="clear: both;"></div>
+        <footer>Copyrights &#169; are reserved to ITI.</footer>
+
+    </div>
+
+
+
+
+    <script src="JS/JS.js">
+    </script>
+
+</body>
+
+</html>
